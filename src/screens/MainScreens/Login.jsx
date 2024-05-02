@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import Pic from "../.././assets/skateLogo.png";
 import { ToastContainer, toast } from "react-toastify";
 import { IoMdEye, IoMdEyeOff, IoMdMail } from "react-icons/io";
-import Star from "../../assets/svg/Star";
 
 const Login = () => {
   // States
@@ -33,9 +32,8 @@ const Login = () => {
   };
 
   return (
-    <div className=" flex h-screen w-full bg-white overflow-auto relative">
+    <div className=" flex h-screen w-full bg-white relative">
       {/*Main View */}
-      <Star className=" absolute top-0 right-0" />
       <div className="flex w-full my-[50px] flex-col items-center justify-center bg-[#ffffff]">
         {/* Logo Image */}
 
