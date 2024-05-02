@@ -61,12 +61,8 @@ export default function SubscriberTable({ data }) {
                   </p>
                 </div>
               </td>
-              <td>
-                <div
-                  className="tooltip"
-                  data-tip="Remove"
-                  onClick={() => handleClick(user)}
-                >
+              <td onClick={() => handleClick(user)}>
+                <div className="tooltip" data-tip="Remove">
                   <IoClose size={19} color="#48525B" />
                 </div>
               </td>

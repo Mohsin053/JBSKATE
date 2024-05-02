@@ -46,13 +46,9 @@ export default function UserTable({ data }) {
               </td>
               <td>{user.email}</td>
               <td>{user.joinedOn}</td>
-              <td>
+              <td onClick={() => handleClick(user)}>
                 <div className="tooltip" data-tip="Remove">
-                  <IoTrashOutline
-                    size={19}
-                    color="#48525B"
-                    onClick={() => handleClick(user)}
-                  />
+                  <IoTrashOutline size={19} color="#48525B" />
                 </div>
               </td>
             </tr>

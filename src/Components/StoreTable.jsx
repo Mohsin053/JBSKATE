@@ -48,13 +48,9 @@ export default function StoreTable({ data }) {
               </td>
               <td>{user.price}</td>
               <td>{user.inStock}</td>
-              <td>
+              <td onClick={() => handleClick(user)}>
                 <div className="tooltip" data-tip="Remove">
-                  <IoTrashOutline
-                    size={19}
-                    color="#48525B"
-                    onClick={() => handleClick(user)}
-                  />
+                  <IoTrashOutline size={19} color="#48525B" />
                 </div>
               </td>
             </tr>

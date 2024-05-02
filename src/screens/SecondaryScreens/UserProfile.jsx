@@ -62,7 +62,7 @@ const UserProfile = (props) => {
             </div>
             <div className="w-full flex items-center justify-center ">
               <div className="avatar">
-                <div className="w-[200px] rounded-full">
+                <div className="w-[200px] rounded-full my-[24px]">
                   <img src={PlayerImg} />
                 </div>
               </div>
@@ -81,7 +81,7 @@ const UserProfile = (props) => {
           <div className="py-[24px] ">
             {/* Input Div */}
             <div className="w-full sm:flex gap-[15px]">
-              <div className="w-full">
+              <div className="w-full mt-[15px] sm:mt-0">
                 <div className="flex gap-2 items-center">
                   <Speed />
                   <p className="text-[18px] font-bebas font-normal text-black ">
@@ -94,7 +94,7 @@ const UserProfile = (props) => {
                   placeholder={player.speed}
                 />
               </div>
-              <div className="w-full">
+              <div className="w-full mt-[15px] sm:mt-0">
                 <div className="flex gap-2 items-center">
                   <Jump />
                   <p className="text-[18px] font-bebas font-normal text-black ">
@@ -107,7 +107,7 @@ const UserProfile = (props) => {
                   placeholder={player.jump}
                 />
               </div>
-              <div className="w-full">
+              <div className="w-full mt-[15px] sm:mt-0">
                 <div className="flex gap-2 items-center">
                   <Dance />
                   <p className="text-[18px] font-bebas font-normal text-black ">
@@ -122,8 +122,8 @@ const UserProfile = (props) => {
               </div>
             </div>
 
-            <div className="w-full mt-[15px]  sm:flex gap-[15px]">
-              <div className="w-full">
+            <div className="w-full sm:flex sm:mt-[15px] gap-[15px]">
+              <div className="w-full mt-[15px] sm:mt-0">
                 <div className="flex gap-2 items-center">
                   <SkateForward />
                   <p className="text-[18px] font-bebas font-normal text-black ">
@@ -136,7 +136,7 @@ const UserProfile = (props) => {
                   placeholder={player.forwardSkate}
                 />
               </div>
-              <div className="w-full">
+              <div className="w-full mt-[15px] sm:mt-0">
                 <div className="flex gap-2 items-center">
                   <SkateBackward />
                   <p className="text-[18px] font-bebas font-normal text-black ">
@@ -149,7 +149,7 @@ const UserProfile = (props) => {
                   placeholder={player.backwardSkate}
                 />
               </div>
-              <div className="w-full hidden sm:block">
+              <div className="w-full hidden sm:block mt-[15px] sm:mt-0">
                 <div className="h-[28px]" />
                 <div className="h-[38px] mt-[8px] w-full bg-transparent" />
               </div>
@@ -166,7 +166,7 @@ const UserProfile = (props) => {
               </button>
               <div className="w-0 h-0 border-t-[21px] border-b-[21px] border-l-[8px] border-t-[transparent] border-b-[transparent] border-l-[#D6D5D5]" />
             </div>
-            <div className="flex w-full hover:opacity-[0.8]">
+            <div className="flex w-full mt-[15px] sm:mt-0 hover:opacity-[0.8]">
               <div className="w-0 h-0 border-t-[21px] border-b-[21px] border-r-[8px] border-t-[transparent] border-b-[transparent] border-r-[#3669C9]" />
               <button
                 className="h-[42px] w-full bg-primary text-[20px] font-normal font-bebas text-white "

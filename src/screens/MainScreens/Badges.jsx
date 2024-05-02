@@ -27,7 +27,7 @@ const Badges = () => {
     <div className="w-full ">
       {/*top Heading */}
       <div className="flex w-full items-center justify-between ">
-        <p className=" text-[40px] md:text-[60px] font-normal font-bebas text-black">
+        <p className=" text-[20px] sm:text-[60px] font-normal font-bebas text-black">
           Badges
         </p>
         <div className="relative flex items-center gap-[8px]">

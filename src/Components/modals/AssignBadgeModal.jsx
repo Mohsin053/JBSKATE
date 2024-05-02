@@ -50,7 +50,7 @@ const AssignBadgeModal = ({ showModal }) => {
             <p className="text-[16px] text-black font-medium font-sans">
               Subscription Type
             </p>
-            <div className="mt-[8px] w-full flex gap-[12px]">
+            <div className="mt-[8px] w-full overflow-x-auto flex gap-[12px]">
               <div className="flex hover:opacity-[0.8]">
                 <div className="w-0 h-0 border-t-[15px] border-b-[15px] border-r-[8px] border-t-[transparent] border-b-[transparent] border-r-[#3669C9]" />
                 <button
