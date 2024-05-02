@@ -81,7 +81,7 @@ const UserProfile = (props) => {
           <div className="py-[24px] ">
             {/* Input Div */}
             <div className="w-full sm:flex gap-[15px]">
-              <div className="w-full mt-[15px] sm:mt-0">
+              <div className="w-full">
                 <div className="flex gap-2 items-center">
                   <Speed />
                   <p className="text-[18px] font-bebas font-normal text-black ">

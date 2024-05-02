@@ -16,6 +16,7 @@ import UserProfile from "./screens/SecondaryScreens/UserProfile";
 
 const router = createBrowserRouter([
   {
+    path: "/",
     children: [
       {
         path: "/login",
